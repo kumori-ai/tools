@@ -6,6 +6,7 @@ Each one runs on its own: no Kumori account, no Kumori infrastructure.
 | tool | what it does |
 |:--|:--|
 | [canary](canary/) | Proves a test can fail. A test that passes on your change *and* on the code before it doesn't prove your change. |
+| [vercel](https://github.com/kumori-ai/vercel) (own repo) | Finds, and proves, the zero-cost models on Vercel AI Gateway: lists what the catalog prices at zero, then makes the smallest real call to each and reads the cost the gateway reports. Standard-library Python. |
 
 Each tool has its own README and tests. More arrive one at a time, once they've shown they help.
 
